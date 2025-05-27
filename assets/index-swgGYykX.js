@@ -17779,7 +17779,7 @@ const RS = ({ token: e, onSelect: t }) =>
             className:
               "flex-shrink-0 w-9 h-9 rounded-full overflow-hidden bg-gmgn-gray-700 mr-3",
             children: c.jsx("img", {
-              src: e.image || "/./placeholder.svg",
+              src: e.image || "placeholder.svg",
               alt: e.name,
               className: "w-full h-full object-cover",
             }),
@@ -18004,7 +18004,7 @@ const OS =
                   className:
                     "flex-shrink-0 w-12 h-12 mr-3 rounded-full overflow-hidden",
                   children: c.jsx("img", {
-                    src: e.image || "/./placeholder.svg",
+                    src: e.image || "placeholder.svg",
                     alt: e.name,
                     className: "w-full h-full object-cover",
                   }),
@@ -18807,7 +18807,7 @@ const MS = ({ isOpen: e, onClose: t }) => {
             id: C.id,
             name: C.name,
             symbol: C.symbol,
-            image: "/./placeholder.svg",
+            image: "placeholder.svg",
             address: C.address || void 0,
             timeSinceLaunch: C.timeSinceLaunch || void 0,
             liq: (E = C.liquidityPoolInfo) == null ? void 0 : E.poolValueUSD,
@@ -19483,7 +19483,7 @@ const MS = ({ isOpen: e, onClose: t }) => {
       id: t.id,
       name: t.name,
       symbol: t.symbol,
-      image: t.image || "/./placeholder.svg",
+      image: t.image || "placeholder.svg",
       price: t.currentPriceUSD,
       priceChange: t.change24hPercentage,
       marketCap: t.marketCapUSD,
@@ -19511,7 +19511,7 @@ const MS = ({ isOpen: e, onClose: t }) => {
             c.jsx("div", {
               className: "w-8 h-8 mr-2",
               children: c.jsx("img", {
-                src: "/./placeholder.svg",
+                src: "./placeholder.svg",
                 alt: "GMGN Logo",
                 className: "w-full h-full",
               }),
@@ -19581,7 +19581,7 @@ const MS = ({ isOpen: e, onClose: t }) => {
     }),
   WS = () => {
     const e = {
-      avatar: "/./placeholder.svg",
+      avatar: "placeholder.svg",
       address: "0x4CDMr...BDr",
       username: "4CDMrp",
       balances: [
